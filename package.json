@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A simple web application that shortens URL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanukk/URL-Shortener.git"
+  },
+  "author": "Kunal Bisht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanukk/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/lanukk/URL-Shortener#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
